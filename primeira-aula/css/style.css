@@ -1,7 +1,9 @@
 /* Estilos Globais */
 body {
-    background-color: aqua;
+    background-image: url("https://www.phxkravfit.com/wp-content/uploads/2020/10/form-background.png");
     font-family: monospace;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Título */
@@ -27,13 +29,14 @@ body {
 
 /* Estilos do Container */
 .container {
-    background-color: #252121;
+    background-color: rgba(37, 33, 33, 0.466); /* Cor preta com 80% de opacidade */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
     color: white;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.8); /* Borda branca com 80% de opacidade */
 }
+
 
 .container h1 {
     text-align: center;
@@ -41,11 +44,12 @@ body {
 
 /* Estilos da Info */
 .info {
-    background-color: #f1f1f1;
+    background-color: #5e5656;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
 }
 
 .info h1 {
