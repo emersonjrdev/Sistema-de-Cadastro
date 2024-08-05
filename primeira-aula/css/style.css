@@ -12,6 +12,7 @@ body {
     margin: auto;
     width: 500px;
     border-bottom: 2px solid black;
+    margin-top: 100px;
 }
 
 /* Layout da Página */
@@ -20,6 +21,8 @@ body {
     justify-content: space-between;
     padding: 20px;
     margin-top: 150px;
+    width: 1200px;
+    margin-left: 315px;
 }
 
 .container, .info {
@@ -35,6 +38,7 @@ body {
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
     color: white;
     border: 2px solid rgba(255, 255, 255, 0.8); /* Borda branca com 80% de opacidade */
+    
 }
 
 
@@ -78,6 +82,7 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     margin-left: 60px;
+    outline: none;
 }
 
 .form-button {

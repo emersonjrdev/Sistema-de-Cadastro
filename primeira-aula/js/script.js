@@ -35,7 +35,7 @@ button.addEventListener("click", (event) => {
     
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "Excluir";
-    deleteButton.style.marginLeft = "50px"; 
+    deleteButton.style.marginLeft = "100px"; 
     deleteButton.classList.add("botao");
 
     
