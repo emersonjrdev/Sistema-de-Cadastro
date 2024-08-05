@@ -1,0 +1,125 @@
+/* Estilos Globais */
+body {
+    background-color: aqua;
+    font-family: monospace;
+}
+
+/* Título */
+.title {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    border-bottom: 2px solid black;
+}
+
+/* Layout da Página */
+.page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.container, .info {
+    flex: 1;
+    margin: 10px;
+}
+
+/* Estilos do Container */
+.container {
+    background-color: #252121;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 2px solid white;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+/* Estilos da Info */
+.info {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+.info h1 {
+    text-align: center;
+}
+
+/* Estilos do Formulário */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 60px;
+}
+
+.form-control input {
+    width: 80%; /* Define a largura para 80% da área disponível */
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-left: 60px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.form-button button {
+    padding: 10px;
+    width: 220px;
+    background-color: #4776ac;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-button button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos da Lista */
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista li {
+    display: block;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin: 5px 50px; /* Margem negativa para estender a borda */
+}
+
+/* Estilos do Botão */
+.botao {
+    background-color: #4776ac;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 100px;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
