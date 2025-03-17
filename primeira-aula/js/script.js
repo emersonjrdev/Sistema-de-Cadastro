@@ -25,7 +25,7 @@ button.addEventListener("click", (event) => {
 
     if (inputTelefoneValue === "") {
         alert("Digite seu telefone");
-        return false;
+        return false; 
     }
 
     

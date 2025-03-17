@@ -1,47 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Cadastro</title>
-</head>
-<body>
-    <div class="title">
-        <h1>Sistema de Cadastro</h1>
-    </div>
-    <div class="page">
-        <div class="container">
-            <header>
-                <h1>Cadastrar Usuário</h1>
-            </header>
-            <main>
-                <form class="form">
-                    <div class="form-control">
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" placeholder="Digite seu nome...">
-                    </div>
-                    <div class="form-control">
-                        <label for="idade">Idade</label>
-                        <input type="text" id="idade" placeholder="Digite sua idade...">
-                    </div>
-                    <div class="form-control">
-                        <label for="telefone">Telefone</label>
-                        <input type="text" id="telefone" placeholder="Digite seu telefone...">
-                    </div>
-                    <div class="form-button">
-                        <button>Cadastrar</button>
-                    </div>
-                </form>
-            </main>
-        </div>
-        <div class="info">
-            <h1>Informações do cadastro</h1>
-            <ul class="lista"></ul>
-        </div>
-    </div>
-    
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmação de Email</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(
+          #000000 50%,
+          #f1eded 50%
+        ); /* Fundo preto e cinza */
+        color: #ffffff;
+      }
+      .logo {
+        margin-bottom: 20px;
+      }
+      .logo img {
+        max-width: 200px;
+      }
+      .email-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        z-index: 1; /* Garante que o card fique acima do fundo */
+      }
+      .email-container h1 {
+        font-size: 24px;
+        color: #000;
+        margin-bottom: 20px;
+        text-align: start;
+      }
+      .email-container p {
+        font-size: 16px;
+        color: #000;
+        line-height: 1.5;
+        text-align: start;
+      }
+      .email-container .code {
+        font-size: 45px;
+        font-weight: bold;
+        color: #000;
+        margin: 20px 0;
+        padding: 15px;
+        width: 350px;
+        background-color: rgb(218, 208, 208);
+        border-radius: 4px;
+        display: inline-block;
+      }
+      .footer {
+        margin-top: 20px;
+        text-align: center;
+        color: #000; /* Cor do texto no fundo cinza */
+      }
+      .footer p {
+        margin: 5px 0;
+        font-size: 14px;
+      }
+      .footer a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold; /* Negrito nos links */
+      }
+      .footer a:hover {
+        text-decoration: underline;
+      }
+      .footer .separator {
+        color: #ccc; /* Cor cinza para os riscos */
+        margin: 0 10px; /* Espaçamento à esquerda e à direita dos riscos */
+      }
 
-    <script src="js/script.js"></script>
-</body>
+      hr {
+        border: 0;
+        height: 1px;
+        background: #ccc; /* Cor da linha */
+        margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+        width: 50%; /* Largura da linha */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <!-- Substitua pelo caminho da sua logo -->
+      <img src="imagem/connect1.png" alt="Logo" />
+    </div>
+    <div class="email-container">
+      <h1>Confirmação de Email</h1>
+      <p>Hi [User Name],</p>
+      <p>
+        Por favor retorne a tela de login e utilize este código abaixo para
+        confirmar o email da sua conta.
+      </p>
+      <div class="code">321288</div>
+      <p>Atenção este código é válido apenas por [x] minutos.</p>
+      <p>
+        <strong>Em caso de dúvidas</strong><br />Responda este e-mail ou entre
+        em contato com
+        <a href="mailto:support@connectworks.com">support@connectworks.com</a>
+      </p>
+    </div>
+
+    <hr />
+
+    <div class="footer">
+        <p>Se você tiver dúvidas ou precisar de ajuda, não hesite em entrar em contato com nossa equipe de suporte</p>
+      <p>São Paulo, Brasil</p>
+      <p>
+        <a href="#"><strong>Termos & condições</strong></a>
+        <span class="separator">|</span>
+        <a href="#"><strong>Política de privacidade</strong></a>
+        <span class="separator">|</span>
+        <a href="#"><strong>Contate-nos</strong></a>
+      </p>
+    </div>
+  </body>
 </html>
